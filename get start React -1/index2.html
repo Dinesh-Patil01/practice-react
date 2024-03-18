@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: solid black 1px;
+            display: flex;
+            height: 500px;
+            width: 90%;
+            justify-content: center;
+            align-items:center;
+            background: pink;
+            align-content: space-around;
+            
+        }
+        h1{
+            border: solid black 1px;
+            height: 200px;
+            width: 15%;            
+            color: red;
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+    </div>
+</body>
+<script src="https://www.unpkg.com/react@18.2.0/umd/react.development.js"></script>
+<script src="https://www.unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+   let element = React.createElement("div",{
+    class:"parent",
+    children:[
+        React.createElement("h1",{id:"1"},"1"),
+        React.createElement("h1",{id:"2"},"2"),
+        React.createElement("h1",{id:"3"},"3"),
+        React.createElement("h1",{id:"4"},"4"),
+    ]
+   })
+
+   let reactRoot = ReactDOM.createRoot(document.getElementById("root"));
+       reactRoot.render(element);
+  </script>
+</html>

@@ -1,0 +1,43 @@
+Q.1 What is React?
+ANS:- React is a JavaScript library created by Facebook as well as it is a User Interface (UI) library and 
+      tool for building UI components.
+
+Q.2 Who made React?
+ANS:- React was created by Jordan Walke, a software engineer at Facebook.
+
+Q.3 What is Babel?
+ANS:- Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript.
+
+Q.4 How does Babel convert html code in React into valid code?
+ANS:- By converting the JSX code into JavaScript functions that return the same HTML-like structures.
+
+Q.5 What is ReactDOM used for? Write an example? 
+ANS:- ReactDOM is used to render components and elements on the web.
+
+Q.6 What are the packages that you need to import for react to work with?
+ANS:- Essential React NPM Packages
+        A. UI Component Libraries and Packages
+        B. State Management Packages
+        C. Routing Packages
+        D. HTTP Client Packages
+        E. CSS in JavaScript Libraries
+        F. Form Handling
+        G. Other UI component
+
+Q.7 How do you add react to a web application?
+ANS:- Step 1: Add a DOM Container to the HTML.
+      Step 2: Add the Script Tags.
+      Step 3: Create a React Component.
+
+Q.8 What is React.createElement?
+ANS:- React.createElement is the Creation of a React component.
+
+Q.9 What are the three properties that createElement accept?
+ANS:- type : The type argument must be a valid React component type. ...
+      props : The props argument must either be an object or null . ...
+      children : Zero or more child nodes.
+
+Q.10 What is the meaning of render and root?
+ANS:- RENDER:- means renew only an appropriate part of information on user’s screen when the element
+      properties (props) are replaced by new ones or a component state (as set of props) changes in application.  
+      ROOT:-The root element refers to the top-level element that is the parent of all other components in your application.    
